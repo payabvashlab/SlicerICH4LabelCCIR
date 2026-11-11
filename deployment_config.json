@@ -1,0 +1,11 @@
+{
+  "component_volume_threshold_ml": 1.0,
+  "remove_threshold": 0.5,
+  "keep_refine_threshold": 0.9,
+  "trainer": "nnUNetTrainerORBITRSNA",
+  "plans": "nnUNetResEncUNetLPlans",
+  "fold": "all",
+  "preferred_physical_gpu": 0,
+  "fallback_to_cpu_if_cuda_unavailable": true,
+  "notes": "Use the CCIR checkpoint trained from method2 ORBIT-RSNA predictions. Enter validated probability thresholds directly in the Slicer GUI."
+}
