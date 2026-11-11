@@ -27,16 +27,6 @@ The extension contains inference code but not private trained weights. You need:
 - 'ccir_best_resubstitution.pt' produced after training CCIR from method2
   predictions.
 
-
-# Expected nnU-Net folder
-
-The selector accepts either the Dataset folder or its configuration folder:
-
-'Dataset516_ICH_CT_ResEncL_MedNeXtLk3_4labels_full/nnUNetTrainerORBITRSNA__nnUNetResEncUNetLPlans__3d_fullres/fold_all/checkpoint_best.pth'
-
-The bundled inference-only 'nnUNetTrainerORBITRSNA' reconstructs the method2
-architecture and is installed automatically into Slicer's nnU-Net package.
-
 # Install in Slicer
 
 ### Development installation
