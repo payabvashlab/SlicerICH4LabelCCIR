@@ -34,9 +34,9 @@ The extension contains inference code but not private trained weights. You need:
 1. Extract this archive.
 2. Open 3D Slicer.
 3. Drag and drop python code to 3D Slicer
-4. Restart Slicer and open Segmentation > ICH 4-Label ORBIT-CCIR.
+4. Open Segmentation > ICH 4-Label ORBIT-CCIR.
 5. Expand Runtime, click Install/verify Python dependencies, then restart
-   Slicer once more.
+   Slicer 2 times to install full libraries.
 
 # Run
 
