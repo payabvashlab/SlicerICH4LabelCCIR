@@ -48,11 +48,6 @@ architecture and is installed automatically into Slicer's nnU-Net package.
 5. Expand Runtime, click Install/verify Python dependencies, then restart
    Slicer once more.
 
-### Build as a normal Slicer extension
-
-Use the standard Slicer extension build process with the top-level
-CMakeLists.txt'. The project follows the standard scripted-module structure.
-
 # Run
 
 1. Choose Loaded volume and select one NCCT, or choose NIfTI folder
@@ -76,12 +71,3 @@ CMakeLists.txt'. The project follows the standard scripted-module structure.
   component and optionally add residual IVH voxels locally.
 - Between the two probability thresholds, abstain and preserve the method2
   ORBIT-RSNA component.
-
-## Scientific limitation
-
-The provided method1 pipeline uses all Yale cases for both training and
-validation. Its reported results and calibrated thresholds are therefore
-resubstitution/development estimates, not independent validation. A deployment
-package should use thresholds selected on a held-out calibration fold before
-clinical or external-test use. This research extension is not a medical device
-and is not intended for clinical diagnosis.
